@@ -13,7 +13,7 @@ function ContactSection() {
     {
       label: 'LinkedIn',
       valeur: 'linkedin.com/in/owess',
-      lien: 'https://linkedin.com/in/owess',
+      lien: 'https://linkedin.com/in/salomon-owess-akpa-2b6244344',
     },
   ]
 
