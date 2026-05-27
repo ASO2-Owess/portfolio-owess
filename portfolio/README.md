@@ -40,7 +40,17 @@ Ce projet est conçu pour être hébergé en tant que site statique.
 
 - **Vercel** : branche principale du dépôt, déploiement automatique.
 - **Netlify** : deployment depuis le dépôt Git.
-- **GitHub Pages** : possible si tu publishes le dossier `dist/` ou utilises un workflow GitHub Actions.
+- **GitHub Pages** : possible grâce à un workflow GitHub Actions.
+
+## Déploiement sur GitHub Pages
+
+Ce dépôt utilise un workflow GitHub Actions dans `.github/workflows/github-pages.yml`.
+
+- Le site est construit avec `npm run build`
+- Le dossier `dist/` est publié sur la branche `gh-pages`
+- Le repository principal peut rester le dossier racine du dépôt
+
+> Si ta branche principale n'est pas `main`, adapte la section `branches` dans le workflow.
 
 ### Points importants
 
