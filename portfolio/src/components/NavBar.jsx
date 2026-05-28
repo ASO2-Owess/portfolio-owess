@@ -54,7 +54,7 @@ function NavBar() {
         </ul>
 
         <a
-          href="/CV_Salomon_Owess_Akpa.pdf"
+          href={`${import.meta.env.BASE_URL}CV_Salomon_Owess_Akpa.pdf`}
           download
           className="hidden md:block btn-cv px-5 py-2 rounded-lg text-sm font-semibold transition-all duration-300"
         >
@@ -103,7 +103,7 @@ function NavBar() {
           </ul>
 
           <a
-            href="/CV_Salomon_Owess_Akpa.pdf"
+            href={`${import.meta.env.BASE_URL}CV_Salomon_Owess_Akpa.pdf`}
             download
             className="btn-cv block text-center mt-4 px-5 py-2 rounded-lg text-sm font-semibold"
           >

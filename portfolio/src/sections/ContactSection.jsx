@@ -74,7 +74,7 @@ function ContactSection() {
               Télécharge l'application mobile Drivexa au format APK depuis ce lien. Le fichier est stocké dans le dossier <code>public/</code>.
             </p>
             <a
-              href="/app-release.apk"
+              href={`${import.meta.env.BASE_URL}app-release.apk`}
               download
               className="btn-primary inline-flex items-center justify-center px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-300"
             >

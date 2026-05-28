@@ -70,7 +70,7 @@ Passionné et autodidacte, je continue de renforcer mes compétences à travers 
 
             <div className="flex flex-wrap gap-4 mt-8">
               <a
-                href="/CV_Salomon_Owess_Akpa.pdf"
+                href={`${import.meta.env.BASE_URL}CV_Salomon_Owess_Akpa.pdf`}
                 download
                 className="btn-primary px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-300"
               >
