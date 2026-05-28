@@ -56,7 +56,7 @@ Ce dépôt utilise un workflow GitHub Actions dans `.github/workflows/github-pag
 
 - Il n'y a pas de formulaire de contact actif.
 - Les messages ne sont pas gérés côté serveur.
-- Le téléchargement AKP fonctionne tant que le fichier `public/akp-drivexa.akp` est présent.
+- Le téléchargement APK fonctionne tant que le fichier `public/app-release.apk` est présent.
 
 ## Notes
 
